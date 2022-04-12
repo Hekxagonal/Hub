@@ -1,9 +1,11 @@
-import Dummy from '../src/components/Dummy';
+import ProfilePhoto from '../src/components/ProfilePhoto';
 
 export default function Home() {
   return (
     <>
-      <Dummy>Template NextJS + StyledComponents + StoryBook</Dummy>
+      <ProfilePhoto>
+        Template NextJS + StyledComponents + StoryBook
+      </ProfilePhoto>
     </>
   );
 }

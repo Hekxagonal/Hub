@@ -19,8 +19,7 @@ export const GlobalStyles = createGlobalStyle`
         font-family: 'Poppins', sans-serif;
     }
     body {
-      background: ${({ theme, themeValue }: iProps) =>
-        theme[themeValue].colors.primary};
+      background: white;
       transition: background 1s ease-in-out;
     }
 `;

@@ -1,7 +1,8 @@
 const theme = {
   light: {
     colors: {
-      primary: 'white',
+      primary: '#6844bd',
+      text: 'white',
     },
   },
   dark: {
